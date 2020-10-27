@@ -146,9 +146,8 @@ for (var i = 0; i < phrase.length; i++) {
     alert (phrase[i]);
 }
 
-/*part c) 
-Create a variable called "sentence" that has an empty string, then to the array from point a) go through it with a for loop to 
-save each word within the sentence variable. At the end show a single alert with the complete chain.*/
+/*part c) Create a variable called "sentence" that has an empty string, then to the array from point a) go through it with 
+a for loop to save each word within the sentence variable. At the end show a single alert with the complete chain.*/
 
 var phrase = ["enviorment","security","information","Cooking","manifest"];
 var sentence;
@@ -160,3 +159,15 @@ for (var i = 0; i < phrase.length; i++) {
     }
 }
 alert (sentence);
+
+/* part d) 
+Create an empty array and with a for loop of 10 repetitions, fill the array with the number of the repetition, that is, at the 
+end of the execution of the for loop, there should be 10 elements within the array, from number 0 to number 9. 
+Show by the browser console the to the final array*/
+
+var phrase = ["enviorment","security","information","Cooking","manifest"];
+var empty = [];
+for (var i = 0; i<10; i++) {
+    empty.push(i);
+}
+console.log (empty);
