@@ -233,3 +233,22 @@ To the sum function of exercise 6b) add a call that validates that the numbers a
 }
 var result = plusCheck(8,9);
 console.log (result);
+
+/* part e) Convert the validation of exercise 6b) into a separate function and call it within the sum function, checking that
+ everything continues to work the same.*/
+
+function integerValidation (num1,num2) {
+    if (typeof (num1) !=='number' || typeof (num2) !=='number') { 
+        alert ("One or more variables are not a number.");
+        return false;
+    }
+}
+function plus (num1,num2) {
+    if (integerValidation(num1,num2) !==false) {
+        return num1 + num2;
+    } else {
+        return "NaN";
+    }    
+}
+var check = plus (12,5);
+alert (check);
