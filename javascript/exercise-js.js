@@ -62,10 +62,15 @@ var months = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto",
 console.log (months[4] +" and "+ months[10]);
 
 /* part b) sort the array of months alphabetically and show in console.*/
-var meses = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre",];
-console.log (meses.sort());
+var months = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre",];
+console.log (months.sort());
 
-/* part c) add an element at the biggining and the end of the array*/
-var meses = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre",];
-meses.unshift("Start of the Year");
-meses.push ("End of the Year");
+/* part c) add an element at the beggining and the end of the array*/
+var months = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre",];
+months.unshift("Start of the Year");
+months.push ("End of the Year");
+
+/* part d) remove an element at the beggining and end of the array*/
+var months = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+months.shift();
+months.pop();
