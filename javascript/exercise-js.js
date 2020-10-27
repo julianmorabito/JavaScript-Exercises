@@ -83,3 +83,7 @@ console.log(months);
 /* part f) Unite all the elements of the array in a single string where each month is separated by a hyphen */
 var months = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
 months = months.join("-");
+
+/* part g) create a copy of the array of months that contain from Mayo to Noviembre*/
+var months = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+var monthsModified= months.slice(4,11);
