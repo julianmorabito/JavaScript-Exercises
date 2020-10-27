@@ -28,3 +28,9 @@ string1= string1.toUpperCase();
 var string1 = "development";
 var string1Cutted= string1.substring(0,5);
 alert (string1Cutted);
+
+//part c) create a string type variable with at least 10 characters and generate a new one with the last 3 characters from it.
+var string1 = "development";
+var string1Cutted= string1.substring(string1.length-3,string1.length);
+alert (string1Cutted);
+alert (string1.length)
