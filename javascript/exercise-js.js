@@ -196,3 +196,15 @@ function plusCheck (num1,num2) {
     }
 var result = plusCheck(8,9);
 console.log (result);
+
+/* part c) Create a validate integer function that takes a number as a parameter and returns true if it is an integer.*/
+
+function validateInteger (num) {
+    if (num % 1 == 0){
+    return true;
+    } else {
+        return false;
+    }
+}
+var checking = validateInteger (5);
+alert (checking);
