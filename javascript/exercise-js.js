@@ -64,3 +64,8 @@ console.log (months[4] +" and "+ months[10]);
 /* part b) sort the array of months alphabetically and show in console.*/
 var meses = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre",];
 console.log (meses.sort());
+
+/* part c) add an element at the biggining and the end of the array*/
+var meses = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre",];
+meses.unshift("Start of the Year");
+meses.push ("End of the Year");
