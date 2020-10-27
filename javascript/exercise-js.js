@@ -130,10 +130,18 @@ if ((Age < 2)) {
 
 //---------For-----------
 
-/* part a)  create an array that contain five words and go over the array using a loop for of JavaScript to show an alert using each
-words.*/
+/* part a)  create an array that contain five words and go over the array using a loop for of JavaScript to show an alert using
+each words.*/
 
 var sentence = ["enviorment","security","information","Cooking","manifest"];
 for (var i = 0; i < sentence.length; i++) {
     alert (sentence [i]);
+}
+
+/* part b) To the previous array, convert the first letter of each word to uppercase and show an alert for each modified word. */
+
+var phrase = ["enviorment","security","information","Cooking","manifest"];
+for (var i = 0; i < phrase.length; i++) {
+    phrase[i] = phrase[i].substring(0,1).toUpperCase()+ phrase[i].substring(1).toLowerCase();
+    alert (phrase[i]);
 }
