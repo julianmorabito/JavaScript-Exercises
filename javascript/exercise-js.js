@@ -87,3 +87,15 @@ months = months.join("-");
 /* part g) create a copy of the array of months that contain from Mayo to Noviembre*/
 var months = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
 var monthsModified= months.slice(4,11);
+
+//----------if else----------------
+
+/* part a) create a random number between 0 and 1 using the function Math.random(), if the value is greater or equal than 0,5, 
+show an alert with a message "Greater than 0,5", but an alert with a message "Lower than 0.5"  */
+var randomNumber = Math.random();
+console.log (randomNumber);
+if (randomNumber>=0.5) {
+    alert ("Greater than 0,5")
+}   else {
+    alert ("Lower than 0,5")
+}
