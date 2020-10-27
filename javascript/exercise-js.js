@@ -165,10 +165,9 @@ Create an empty array and with a for loop of 10 repetitions, fill the array with
 end of the execution of the for loop, there should be 10 elements within the array, from number 0 to number 9. 
 Show by the browser console the to the final array*/
 
-var phrase = ["enviorment","security","information","Cooking","manifest"];
 var empty = [];
 for (var i = 0; i<10; i++) {
-    empty.push(i);
+    empty[i] = i;
 }
 console.log (empty);
 
