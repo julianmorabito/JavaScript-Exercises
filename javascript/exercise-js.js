@@ -145,3 +145,18 @@ for (var i = 0; i < phrase.length; i++) {
     phrase[i] = phrase[i].substring(0,1).toUpperCase()+ phrase[i].substring(1).toLowerCase();
     alert (phrase[i]);
 }
+
+/*part c) 
+Create a variable called "sentence" that has an empty string, then to the array from point a) go through it with a for loop to 
+save each word within the sentence variable. At the end show a single alert with the complete chain.*/
+
+var phrase = ["enviorment","security","information","Cooking","manifest"];
+var sentence;
+for (var i = 0; i < phrase.length; i++) {
+    if (i< phrase.length-1) {
+    sentence += phrase[i]+" ";
+    } else {
+        sentence+= phrase [i];
+    }
+}
+alert (sentence);
