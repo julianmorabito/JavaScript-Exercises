@@ -171,3 +171,15 @@ for (var i = 0; i<10; i++) {
     empty.push(i);
 }
 console.log (empty);
+
+//----------Function------------
+
+/* part a) Create a sum function that receives two numeric values ​​and returns the result. Execute the function and save the 
+result in a variable, showing the value of said variable in the browser console.*/
+
+function plus (num1,num2) {
+    return num1 + num2;
+}
+var result = plus(78,5);
+console.log (result);
+
