@@ -127,3 +127,13 @@ if ((Age < 2)) {
 } else {
     alert ("Anciano")
 }
+
+//---------For-----------
+
+/* part a)  create an array that contain five words and go over the array using a loop for of JavaScript to show an alert using each
+words.*/
+
+var sentence = ["enviorment","security","information","Cooking","manifest"];
+for (var i = 0; i < sentence.length; i++) {
+    alert (sentence [i]);
+}
