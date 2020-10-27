@@ -208,3 +208,28 @@ function validateInteger (num) {
 }
 var checking = validateInteger (5);
 alert (checking);
+
+/* part d) 
+To the sum function of exercise 6b) add a call that validates that the numbers are integers. In case there are decimals,
+ show an alert with the error and return the number converted to integer (rounded).*/
+
+ function plusCheck (num1,num2) {
+    var flag = 0;
+    if (typeof (num1) =='number' && typeof (num2) =='number' ) {
+        flag = 1;
+        sum = num1 + num2;
+        } else {            
+            alert ("One or more variables are not a number.");
+            return "NaN";
+        }
+    if (flag = 1) {
+        if (sum % 1 !== 0) {
+            alert ("One or more numbers have decimal.")
+            return (Math.round (sum));
+        } else {
+            return (sum);
+        }
+    }
+}
+var result = plusCheck(8,9);
+console.log (result);
