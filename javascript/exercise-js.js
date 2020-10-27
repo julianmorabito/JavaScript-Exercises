@@ -183,3 +183,16 @@ function plus (num1,num2) {
 var result = plus(78,5);
 console.log (result);
 
+/* part b) To the previous sum function, add a validation to control if any of the parameters is not a number, show an alert 
+clarifying that one of the parameters has an error and return the NaN value as a result.*/
+
+function plusCheck (num1,num2) {
+    if (typeof (num1) =='number' && typeof (num2) =='number' ) {
+        return num1 + num2;
+        } else {
+            alert ("One or more variables are not a number.");
+            return "NaN";
+        }
+    }
+var result = plusCheck(8,9);
+console.log (result);
