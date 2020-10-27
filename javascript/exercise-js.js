@@ -45,3 +45,12 @@ alert (string1Merged);
 variable.*/
 var string1 = "developme nt";
 var string1BlankPos = string1.indexOf(" ");
+
+/*part f) create a type string variable with at least 2 words long. Use the methods of the above exercises to generate
+ a new string that have the first letter of both words uppercased and the rest on lowercase.*/
+ var string1 = "jAvAsCriPt deveLopmEnt";
+ var string1Modified= string1.substring(0,1).toUpperCase() +string1.substring(1,string1.indexOf(" ")).toLowerCase() +
+  " " + string1.substring(string1.indexOf(" ")+1,string1.indexOf(" ")+2).toUpperCase() + string1.substring(string1.indexOf(" ")
+  +2, string1.length).toLowerCase();
+ alert (string1Modified);
+ 
