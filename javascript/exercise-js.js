@@ -11,3 +11,9 @@ var string1 = "Radium ";
 var string2 = "Rocket.";
 var string3 = string1 + string2;
 alert (string3);
+
+// part c) create two string type variables and sum the long of each variable saving the result of the sum on a 3rd variable.
+var word1 = "Web";
+var word2 = "Developer";
+var totalLenght= word1.length + word2.length;
+alert (totalLenght);
