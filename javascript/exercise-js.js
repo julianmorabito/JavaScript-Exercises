@@ -17,3 +17,9 @@ var word1 = "Web";
 var word2 = "Developer";
 var totalLenght= word1.length + word2.length;
 alert (totalLenght);
+
+//--------Strings-----------
+
+//part a) create a variable string type with at least 10 characters, and change the text into uppercase.
+var string1 = "development";
+string1= string1.toUpperCase();
