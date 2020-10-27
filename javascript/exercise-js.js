@@ -76,6 +76,10 @@ months.shift();
 months.pop();
 
 /* part e) invert the order of the array*/
-var meses = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
-meses.reverse();
-console.log(meses);
+var months = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+months.reverse();
+console.log(months);
+
+/* part f) Unite all the elements of the array in a single string where each month is separated by a hyphen */
+var months = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+months = months.join("-");
