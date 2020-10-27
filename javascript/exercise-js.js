@@ -40,3 +40,8 @@ Save the result in a new variable.*/
 var string1 = "development";
 var string1Merged = string1.substring(0,1).toUpperCase()+string1.substring(1).toLowerCase();
 alert (string1Merged);
+
+/*part e) create a string type variable with at least 10 characters and a blank space. Find the position of the first blank space and save it on a new
+variable.*/
+var string1 = "developme nt";
+var string1BlankPos = string1.indexOf(" ");
