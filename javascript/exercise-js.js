@@ -1,6 +1,7 @@
 //--------Variables and operators---------
 
-// part a) create two numerical variables and use the operator sum for save the value of the sum of both numbers on a 3rd variable.
+/* part a) create two numerical variables and use the operator sum for save the value of the sum of both numbers on a 3rd 
+variable.*/
 var num1 = 405;
 var num2 = 234;
 var num3 = num1 + num2;
@@ -35,14 +36,14 @@ var string1Cutted= string1.substring(string1.length-3,string1.length);
 alert (string1Cutted);
 alert (string1.length)
 
-/*part d) create a string type variable with at least 10 characters and generate a new one with the first letter uppercased and the rest lowercased.
-Save the result in a new variable.*/
+/*part d) create a string type variable with at least 10 characters and generate a new one with the first letter uppercased and the
+ rest lowercased. Save the result in a new variable.*/
 var string1 = "development";
 var string1Merged = string1.substring(0,1).toUpperCase()+string1.substring(1).toLowerCase();
 alert (string1Merged);
 
-/*part e) create a string type variable with at least 10 characters and a blank space. Find the position of the first blank space and save it on a new
-variable.*/
+/*part e) create a string type variable with at least 10 characters and a blank space. Find the position of the first blank space
+and save it on a new variable.*/
 var string1 = "developme nt";
 var string1BlankPos = string1.indexOf(" ");
 
@@ -53,4 +54,10 @@ var string1BlankPos = string1.indexOf(" ");
   " " + string1.substring(string1.indexOf(" ")+1,string1.indexOf(" ")+2).toUpperCase() + string1.substring(string1.indexOf(" ")
   +2, string1.length).toLowerCase();
  alert (string1Modified);
+
+ //----------Arrays----------
+
+/* part a) given the next array, show in console the month 5 and 11.*/
+var months = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre",];
+console.log (months[4] +" and "+ months[10]);
  
