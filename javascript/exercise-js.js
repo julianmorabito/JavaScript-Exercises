@@ -34,3 +34,9 @@ var string1 = "development";
 var string1Cutted= string1.substring(string1.length-3,string1.length);
 alert (string1Cutted);
 alert (string1.length)
+
+/*part d) create a string type variable with at least 10 characters and generate a new one with the first letter uppercased and the rest lowercased.
+Save the result in a new variable.*/
+var string1 = "development";
+var string1Merged = string1.substring(0,1).toUpperCase()+string1.substring(1).toLowerCase();
+alert (string1Merged);
