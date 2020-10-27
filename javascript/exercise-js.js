@@ -74,3 +74,8 @@ months.push ("End of the Year");
 var months = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
 months.shift();
 months.pop();
+
+/* part e) invert the order of the array*/
+var meses = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+meses.reverse();
+console.log(meses);
