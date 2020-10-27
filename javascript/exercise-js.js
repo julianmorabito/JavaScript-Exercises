@@ -60,4 +60,7 @@ var string1BlankPos = string1.indexOf(" ");
 /* part a) given the next array, show in console the month 5 and 11.*/
 var months = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre",];
 console.log (months[4] +" and "+ months[10]);
- 
+
+/* part b) sort the array of months alphabetically and show in console.*/
+var meses = ["Enero","Febrero","Narzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre",];
+console.log (meses.sort());
