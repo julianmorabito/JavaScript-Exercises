@@ -23,3 +23,8 @@ alert (totalLenght);
 //part a) create a variable string type with at least 10 characters, and change the text into uppercase.
 var string1 = "development";
 string1= string1.toUpperCase();
+
+//part b) create a string type variable with at least 10 characters and generate a new one with the first 5 characters from it.
+var string1 = "development";
+var string1Cutted= string1.substring(0,5);
+alert (string1Cutted);
